@@ -29,7 +29,7 @@ public class BaseTest {
 	@AfterMethod(alwaysRun = true)
 	public void tearDown() {
 		log.info("Close driver");
-		// Close browser
+		// Close the browser er
 		driver.quit();
 	}
 
